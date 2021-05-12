@@ -62,9 +62,9 @@ object SocialNetwork {
 		 * - |  aggregate data:<br />
 		 * - |      summing up total count<br />
 		 * - |      summing up total storage<br />
-		 * - | calculate average<br />
-		 * - update state with the new aggregated data<br />
-		 * - return a new single value of type [AveragePostStorage]<br />
+		 *
+		 * - update state with the new aggregated data [newPostBulk]<br />
+		 * - return a new single value of type [AveragePostStorage][calculated using: newPostBulk]<br />
 		 */
 
 		val previousBulk =
